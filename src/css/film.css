@@ -1,0 +1,13 @@
+.film{
+    padding: 0 1em 0 1em;
+    width: 42%;
+    height: 100px;    
+    display: flexgrid;
+    flex-wrap: wrap;
+    align-content: space-between;
+    color: rgb(124, 124, 124);
+}
+
+a {
+    color: rgb(201, 201, 201);
+}

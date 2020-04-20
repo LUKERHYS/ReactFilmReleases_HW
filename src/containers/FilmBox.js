@@ -39,8 +39,11 @@ class FilmBox extends Component {
     render(){
         return(
             <>
+            <div className="film-box-header">
+                <h1>UpcomingFilms_</h1>
+                </div>
             <div className="film-box">
-                <h1>Upcoming Film releases</h1>
+                
                 <FilmList films={this.state.films} />
             </div>
 
