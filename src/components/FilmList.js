@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Film from './Film';
+import '../css/filmlist.css';
 
 class FilmList extends Component{
     render(){
