@@ -40,7 +40,7 @@ class FilmBox extends Component {
             <>
             <div className="film-box">
                 <h1>Upcoming Film releases</h1>
-                <FilmList />
+                <FilmList films={this.state.films} />
             </div>
 
             <div className="link-footer">
